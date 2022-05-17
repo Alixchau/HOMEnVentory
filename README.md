@@ -1,15 +1,20 @@
 # HOMEnVentory Java Web Application
 
-(Login Page)
 <img src="https://i.ibb.co/DwjmKFH/Screenshot-2022-05-16-224237.png" alt="Screenshot-2022-05-16-224237" border="0">
-(User's Inventory Page)
+(Login Page)
+
 <img src="https://i.ibb.co/f1JsK1p/Screenshot-2022-05-16-224424.png" alt="Screenshot-2022-05-16-224424" border="0">
-(Admin Page)
+(User's Inventory Page)
+
 <img src="https://i.ibb.co/80b1bd3/Screenshot-2022-05-16-224549.png" alt="Screenshot-2022-05-16-224549" border="0">
-(Registration email)
+(Admin Page)
+
 <img src="https://i.ibb.co/vDyFHRP/Screenshot-2022-05-16-224618.png" alt="Screenshot-2022-05-16-224618" border="0">
-(Export to excel)
+(Registration email)
+
 <img src="https://i.ibb.co/X5WthLr/Screenshot-2022-05-16-224637.png" alt="Screenshot-2022-05-16-224637" border="0">
+(Export to excel)
+
 
 ## Introduction
 
