@@ -18,7 +18,7 @@
 
 ## Introduction
 
-This is a application for Home inventory management, it allows users to add, delete, edit their inventory.
+This is a application for Home inventory management, it allows users to add, delete, edit their inventory. Also other functions as below.
 
 ### Functionalities
 
