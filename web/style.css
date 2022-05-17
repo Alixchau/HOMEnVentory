@@ -1,0 +1,235 @@
+body{
+    font-size: medium;
+    font-family: Garamond,Verdana,Times New Roman;
+    color: #222831;
+    background-color: #fff;
+}
+.container {
+    display:block;
+    margin-top: 25px;
+}
+
+.sidenav{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background:  #30475E;
+    overflow-x: hidden;
+    padding-top: 30px;
+}
+.sidenav a{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #DDDDDD;
+    display: block;
+}
+.sidenav a:hover{
+    background-color: #cfd7e4;
+    color: #222831;
+}
+.sidenav h3{
+    padding: 15px;
+    font-weight: bold;
+    color: #DDDDDD;
+    display: block;
+}
+.sidenav h4{
+    padding: 15px;
+    font-weight: bold;
+    color: #DDDDDD;
+    display: block;
+}
+.contentPage{
+    margin-left: 200px;
+    padding-top: 20px;
+}
+h1,h2,h3,h4 {
+    text-align: center;
+}
+li a {
+    display: block;
+    color: #000000;
+    padding: 8px 8px;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hover {
+    background-color: #cfd7e4;
+    color: #000000;
+}
+
+
+.manageTable{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 80%;
+    margin: 15px auto;
+    box-shadow: 0 0.6rem 0.6rem #dddbd8;
+
+}
+.AdminManageTable{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 80%;
+    margin: 15px auto;
+    box-shadow: 0 0.6rem 0.6rem #dddbd8;
+}
+.inventoryTable{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 0.6rem 0.6rem #dddbd8;
+    margin: 15px auto;
+}
+.catTable{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 75%;
+    margin: 15px auto;
+    box-shadow: 0 0.6rem 0.6rem #dddbd8;
+
+}
+ul {
+    list-style: none;
+    padding: 5px 5px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family:  Garamond,Verdana,Times New Roman;
+    font-size: 15px;
+}
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #cfd7e4;
+    color: #30475E;
+    padding: 7px 7px;
+    margin: 5px 0;
+    font-family:  Garamond,Verdana,Times New Roman;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px ;
+}
+
+input[type=submit]:hover {
+    background-color: #DDDDDD;
+    color: #222831;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.manageTable ul li span{
+    display: inline-block;
+}
+
+.manageTable ul li span:nth-child(5n+1){
+    width: 25%;
+}
+.manageTable ul li span:nth-child(5n+2){
+    width: 25%;
+}
+.manageTable ul li span:nth-child(5n+3){
+    width: 20%;
+}
+.manageTable ul li span:nth-child(5n+4){
+    width: 15%;
+}
+.manageTable ul li span:nth-child(5n+0){
+    width: 15%;
+}
+
+
+
+.inventoryTable ul li span{
+    display: inline-block;
+}
+
+.inventoryTable ul li span:nth-child(5n+1){
+    width: 30%;
+}
+.inventoryTable ul li span:nth-child(5n+2){
+    width: 30%;
+}
+.inventoryTable ul li span:nth-child(5n+3){
+    width: 15%;
+}
+.inventoryTable ul li span:nth-child(5n+4){
+    width: 10%;
+}
+.inventoryTable ul li span:nth-child(5n+0){
+    width: 10%;
+}
+
+
+
+
+.AdminManageTable ul li span{
+    display: inline-block;
+}
+
+.AdminManageTable ul li span:nth-child(7n+1){
+    width: 30%;
+}
+.AdminManageTable ul li span:nth-child(7n+2){
+    width: 15%;
+}
+.AdminManageTable ul li span:nth-child(7n+3){
+    width: 15%;
+}
+.AdminManageTable ul li span:nth-child(7n+4){
+    width: 15%;
+}
+.AdminManageTable ul li span:nth-child(7n+5){
+    width: 8%;
+}
+.AdminManageTable ul li span:nth-child(7n+6){
+    width: 7%;
+}
+.AdminManageTable ul li span:nth-child(7n+0){
+    width: 7%;
+}
+
+
+.catTable ul li span{
+    display: inline-block;
+    padding: 0 50px;
+}
+
+.catTable ul li span:nth-child(2n+1){
+    width: 50%;
+}
+.catTable ul li span:nth-child(2n+0){
+    width: 15%;
+}
